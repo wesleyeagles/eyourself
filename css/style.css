@@ -959,9 +959,21 @@ div.form-header-group.header-large {
 
   width: 300px;
   border: none;
+  border-radius: 10px;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   margin: 5px;
   background-color: #004690;
+  
+}
+
+#form-product:hover {
+
+  width: 300px;
+  border: none;
+  border-radius: 10px!important;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  margin: 5px;
+  background-color: #0861c0;
   
 }
 
@@ -969,6 +981,13 @@ div.form-header-group.header-large {
 
   font-size: 19px;
   font-family: GilroyLight;
+}
+
+#image-role {
+
+  border-top-left-radius: 10px!important;
+  border-top-right-radius: 10px!important;
+
 }
 
 #image-role img {
