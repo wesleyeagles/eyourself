@@ -1055,6 +1055,12 @@ form {
   .pc {
 
     display: none;
+    width: 10px;
+  }
+
+  .pc #mockup {
+
+    width: 10px;
   }
 
   .mobile {
