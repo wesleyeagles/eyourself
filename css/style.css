@@ -24,6 +24,7 @@
 body {
 
     font-family: GilroyBold!important;
+    height: 100%;
     
 }
 
@@ -131,9 +132,16 @@ body {
 
 #produtos {
 
-    height: 800px;
+    height: 100%;
     background-color: white;
 }
+footer a {
+
+  font-size: 12px;
+  font-family: GilroyLight;
+}
+
+
 
 .font-gilroy {
 
@@ -153,7 +161,7 @@ body {
     font-size: 22px!important;
     font-family: GilroyLight;
     font-weight: 400;
-    opacity: 0.8;
+    opacity: 1;
     color: #606060;
 }
 
@@ -1021,6 +1029,7 @@ div.form-header-group.header-large {
 }
 
 
+
 .form-dropdown {
 
 }
@@ -1099,6 +1108,12 @@ form {
   font-size: 22px!important;
 
 
+}
+
+footer p {
+
+  font-size: 6px!important;
+  font-family: GilroyLight;
 }
 
 
