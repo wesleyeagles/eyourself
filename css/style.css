@@ -27,11 +27,62 @@ body {
     
 }
 
+.class {
+
+  opacity: 0;
+}
+
+.class2 {
+
+  position: relative;
+  right: 900px;
+ 
+
+}
+
+.class3 {
+
+  position: relative;
+  bottom: 200px;
+}
+
+.newClass2 {
+
+  position: relative;
+  left: 0px;
+}
+
+.newClass3 {
+
+  position: relative;
+  top: 0px;
+}
+
+.newClass {
+
+  display: block;
+  opacity: 1;
+}
+
+
+
 
 .container-produtos {
 
     max-width: 1700px;
     margin: 0 auto;
+}
+
+.container {
+
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container-2 {
+
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 
@@ -44,7 +95,7 @@ body {
 
 #navigation-sticky img {
 
-    width: 16%;
+    width: 10%;
 }
 
 #navigation-sticky a {
@@ -946,6 +997,13 @@ div.form-header-group.header-large {
 .form-error-message {
 
   display: none!important;
+}
+
+.nav-item:hover {
+ 
+  position: relative;
+  top: 5px;
+
 }
 
 
