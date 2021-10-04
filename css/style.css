@@ -1100,6 +1100,7 @@ form {
   #produtos {
 
     flex-direction: none;
+    max-width: 420px!important;
   }
 
   #form-product {
@@ -1112,6 +1113,11 @@ form {
     width: 100%;
     
     
+  }
+
+  .form-all {
+
+    max-width: 400px!important;
   }
 
   
