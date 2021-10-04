@@ -142,14 +142,14 @@ body {
 
 #produtos h2 {
 
-    color: #005699!important;
+    color: #075aa8!important;
     font-size: 35px!important;
     font-family: GilroyBold;
 }
 
 #produtos p {
 
-    color: #005699;
+    color: #075aa8;
     font-size: 22px!important;
     font-family: GilroyLight;
     font-weight: 400;
@@ -181,7 +181,7 @@ button {
     border: none;
     color: white;
     border-radius: 7px;
-    background-color: #0081c1;
+    background-color: #075aa8;
     padding: 10px;
 }
 
@@ -328,7 +328,7 @@ input:focus {
     border-color: rgba(195, 202, 216, 0.75);
   }
   .rating-item input:hover+label {
-    border-color: #2e69ff;
+    border-color: #075aa8;
   }
   .appointmentSlot,
   .form-checkbox:checked+label:before, .form-checkbox:checked+span:before, .form-checkbox:checked+span label:before,
@@ -336,7 +336,7 @@ input:focus {
   .form-dropdown:focus, .form-textarea:focus, .form-textbox:focus, .signature-wrapper:focus,
   .form-line[data-payment="true"] .form-product-item .p_checkbox .checked,
   .form-dropdown:hover, .form-textarea:hover, .form-textbox:hover, .signature-wrapper:hover {
-    border-color: #2e69ff;
+    border-color: #075aa8;
   }
 
   .calendar tr.days td:hover:not(.unselectable):after {
@@ -382,10 +382,10 @@ input:focus {
   .appointmentCalendar .calendarDay:after,
   .form-line[data-payment="true"] .form-product-item .p_checkbox .checked,
   .rating-item input:focus+label {
-    background-color: #2e69ff;
+    background-color: #075aa8;
   }
   .appointmentSlot.active {
-    background-color: #2e69ff !important;
+    background-color: #075aa8 !important;
   }
   .clear-pad-btn,
   .appointmentCalendar .dayOfWeek,
@@ -459,7 +459,7 @@ input:focus {
     border-color: #16AA52;
   }
   .form-pagebreak-next {
-    background-color: #2e69ff;
+    background-color: #075aa8;
   }
   .form-pagebreak-back {
     background-color: #e5e7f2;
@@ -1178,10 +1178,17 @@ form {
   
     font-size: 20px!important;
   }
+
+  #produtos h2 {
+
+    color: #075aa8!important;
+    font-size: 20px!important;
+    font-family: GilroyBold;
+}
   
   #produtos p {
   
-    font-size: 12px!important;
+    font-size: 15px!important;
   }
   
   #label_15 {
