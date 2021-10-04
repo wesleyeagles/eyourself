@@ -1055,12 +1055,12 @@ form {
   .pc {
 
     display: none;
-    width: 10px;
+    width: 1%;
   }
 
   .pc #mockup {
 
-    width: 10px;
+    width: 1%;
   }
 
   .mobile {
@@ -1073,6 +1073,12 @@ form {
     width: 400px;
     position: relative;
     right: -5px;
+}
+
+.container-produtos {
+
+  max-width: 100%;
+  margin: 0 auto;
 }
 
   
