@@ -92,7 +92,9 @@ body {
 
 #navigation-sticky {
 
-    background-image: url(/assets/img/Background.webp);
+    background-image: url(https://i.postimg.cc/851cg5Sg/Background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 70px;
 }
 
@@ -108,7 +110,10 @@ body {
 
 #header {
 
-    background-image: url(/assets/img/Background.webp)!important;
+    background-image: url(https://i.postimg.cc/851cg5Sg/Background.webp)!important;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
     height: 600px;
 }
 
