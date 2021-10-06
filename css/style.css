@@ -165,6 +165,11 @@ footer a {
     color: #606060;
 }
 
+.img-mobile {
+
+  display: none;
+}
+
 .mt-10 {
 
     margin-top: 15rem;
@@ -211,6 +216,7 @@ button:hover {
     padding: 5px;
     height: 50px;
     width: 200px;
+    background-color: #004690;
     
 
 }
@@ -1147,6 +1153,22 @@ form {
             box-sizing: border-box;
 }
 
+.img-pc {
+
+  display: none;
+}
+
+.img-mobile {
+
+  display: block;
+}
+
+.img-mobile {
+
+  width: 150%!important;
+  max-width: 150%!important;
+}
+
   .pc {
 
     display: none;
@@ -1232,6 +1254,18 @@ form {
   .form-all {
 
     max-width: 400px!important;
+  }
+
+  #footerp p {
+
+    font-size: 11px!important;
+    font-family: GilroyLight;
+  }
+
+  #footerp img {
+
+    width: 150%!important;
+    max-width: 150%;
   }
 
   
