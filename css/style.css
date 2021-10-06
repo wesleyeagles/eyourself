@@ -92,9 +92,7 @@ body {
 
 #navigation-sticky {
 
-    background-image: url(https://i.postimg.cc/851cg5Sg/Background.webp);
     background-size: cover;
-    background-repeat: no-repeat;
     height: 70px;
 }
 
@@ -113,7 +111,6 @@ body {
     background-image: url(https://i.postimg.cc/851cg5Sg/Background.webp)!important;
     background-size: cover;
     width: 100%;
-    background-repeat: no-repeat;
     height: 600px;
 }
 
@@ -133,6 +130,11 @@ body {
 
     width: 600px;
     max-width: 600px;
+}
+
+#navigation-sticky img {
+
+  width: 10%!important;
 }
 
 #produtos {
@@ -1144,6 +1146,12 @@ form {
     right: 180px;
   }
 
+  #navigation-sticky img {
+
+    width: 20%!important;
+    right: 0px;
+  }
+
 
 
 }
@@ -1205,7 +1213,7 @@ form {
 
   
 
-  .brand-img {
+  #navigation-sticky img {
   
 
     width: 120px!important;
