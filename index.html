@@ -9,19 +9,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    
+    <script src="https://js.jotform.com/vendor/postMessage.js?3.3.28377" type="text/javascript"></script>
+    <script src="https://js.jotform.com/WidgetsServer.js?v=1633959083299" type="text/javascript"></script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=5f7ed99c2c2c7240ba580251"/>
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.28272" />
-<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.28272" />
+    <link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/payment/payment_styles.css?3.3.28371" />
+    <link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.28371" />
 
     
     <title>E-Yourself - Crie Seu Plano Ideal</title>
 
     
 
-    <script defer src="https://cdn01.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.28272" type="text/javascript"></script>
-    <script defer src="https://cdn02.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.28272" type="text/javascript"></script>
+    <script defer src="https://cdn01.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.28377" type="text/javascript"></script>
+    <script defer src="https://cdn02.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.28377" type="text/javascript"></script>
     <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
 
     <style type="text/css" id="form-designer-style">
@@ -36,6 +40,18 @@
       box-shadow: 0px 5px 5px 10px rgb(238, 238, 238);
       max-width: 1800px;
     }
+
+    .form-dropdown {
+
+}
+
+.form-sub-label {
+
+}
+
+.form-buttons-wrapper.form-buttons-auto.jsTest-button-wrapperField {
+
+}
     
   </style>
     
@@ -62,15 +78,15 @@
     if (window.JotForm && JotForm.accessible) $('input_12').setAttribute('tabindex',0);
           JotForm.setInputTextMasking( 'input_12', '##.###.###/####-##' );
           JotForm.setPhoneMaskingValidator( 'input_7_full', '(##) #####-####' );
-          JotForm.alterTexts({"ageVerificationError":"You must be older than {minAge} years old to submit this form.","alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","appointmentSelected":"You’ve selected {time} on {date}","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccInvalidNumber":"Credit Card Number is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Please enter numeric values for donation amount.","ccMissingProduct":"Please select at least one product.","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","currency":"This field can only contain currency values.","cyrillic":"This field can only contain cyrillic characters","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","dateLimited":"This date is unavailable.","disallowDecimals":"Please enter a whole number.","doneButton":"Done","doneMessage":"Well done! All errors are fixed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","email":"Enter a valid e-mail address","fillMask":"Field value must fill mask.","freeEmailError":"Free email accounts are not allowed","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoNotAvailableTitle":"Position Unavailable","geoPermissionDesc":"Check your browser's privacy settings.","geoPermissionTitle":"Permission Denied","geoTimeoutDesc":"Please check your internet connection and try again.","geoTimeoutTitle":"Timeout","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","justSoldOut":"Just Sold Out","lessThan":"Your score should be less than or equal to","maxDigitsError":"The maximum digits allowed is","maxFileSize_infoMessage":"Max. file size","maxSelectionsError":"The maximum number of selections allowed is ","minSelectionsError":"The minimum required number of selections is ","multipleError":"There are {count} errors in this page. Please correct them before moving on.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","noSlotsAvailable":"No slots available","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"This field can only contain numeric values","oneError":"There is {count} error in this page. Please correct it before moving on.","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Aguarde...","required":"This field is required.","requiredLegend":"All fields marked with * are required and must be filled.","requireEveryCell":"Every cell is required.","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","restrictedDomain":"This domain is not allowed","seeErrorsButton":"See Errors","selectionSoldOut":"Selection Sold Out","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","soldOut":"Sold Out","subProductItemsLeft":"({count} items left)","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","url":"This field can only contain a valid URL","validateEmail":"You need to validate this e-mail","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is"});
+          JotForm.alterTexts({"ageVerificationError":"You must be older than {minAge} years old to submit this form.","alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","appointmentSelected":"You’ve selected {time} on {date}","ccDonationMinLimitError":"Minimum amount is {minAmount} {currency}","ccInvalidCVC":"CVC number is invalid.","ccInvalidExpireDate":"Expire date is invalid.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccInvalidNumber":"Credit Card Number is invalid.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Please enter numeric values for donation amount.","ccMissingProduct":"Please select at least one product.","characterLimitError":"Too many Characters.  The limit is","characterMinLimitError":"Too few characters. The minimum is","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","currency":"This field can only contain currency values.","cyrillic":"This field can only contain cyrillic characters","dateInvalid":"This date is not valid. The date format is {format}","dateInvalidSeparate":"This date is not valid. Enter a valid {element}.","dateLimited":"This date is unavailable.","disallowDecimals":"Please enter a whole number.","doneButton":"Done","doneMessage":"Well done! All errors are fixed.","dragAndDropFilesHere_infoMessage":"Drag and drop files here","email":"Enter a valid e-mail address","fillMask":"Field value must fill mask.","freeEmailError":"Free email accounts are not allowed","generalError":"There are errors on the form. Please fix them before continuing.","generalPageError":"There are errors on this page. Please fix them before continuing.","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoNotAvailableTitle":"Position Unavailable","geoPermissionDesc":"Check your browser's privacy settings.","geoPermissionTitle":"Permission Denied","geoTimeoutDesc":"Please check your internet connection and try again.","geoTimeoutTitle":"Timeout","gradingScoreError":"Score total should only be less than or equal to","incompleteFields":"There are incomplete required fields. Please complete them.","inputCarretErrorA":"Input should not be less than the minimum value:","inputCarretErrorB":"Input should not be greater than the maximum value:","justSoldOut":"Just Sold Out","lessThan":"Your score should be less than or equal to","maxDigitsError":"The maximum digits allowed is","maxFileSize_infoMessage":"Max. file size","maxSelectionsError":"The maximum number of selections allowed is ","minSelectionsError":"The minimum required number of selections is ","multipleError":"There are {count} errors in this page. Please correct them before moving on.","multipleFileUploads_emptyError":"{file} is empty, please select files again without it.","multipleFileUploads_fileLimitError":"Only {fileLimit} file uploads allowed.","multipleFileUploads_minSizeError":"{file} is too small, minimum file size is {minSizeLimit}.","multipleFileUploads_onLeave":"The files are being uploaded, if you leave now the upload will be cancelled.","multipleFileUploads_sizeError":"{file} is too large, maximum file size is {sizeLimit}.","multipleFileUploads_typeError":"{file} has invalid extension. Only {extensions} are allowed.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","noSlotsAvailable":"No slots available","notEnoughStock":"Not enough stock for the current selection","notEnoughStock_remainedItems":"Not enough stock for the current selection ({count} items left)","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"This field can only contain numeric values","oneError":"There is {count} error in this page. Please correct it before moving on.","pastDatesDisallowed":"Date must not be in the past.","pleaseWait":"Aguarde","required":"This field is required.","requiredLegend":"All fields marked with * are required and must be filled.","requireEveryCell":"Every cell is required.","requireEveryRow":"Every row is required.","requireOne":"At least one field required.","restrictedDomain":"This domain is not allowed","seeErrorsButton":"See Errors","selectionSoldOut":"Selection Sold Out","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","soldOut":"Sold Out","subProductItemsLeft":"({count} items left)","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:","uploadFilesizemin":"File size cannot be smaller than:","url":"This field can only contain a valid URL","validateEmail":"You need to validate this e-mail","wordLimitError":"Too many words. The limit is","wordMinLimitError":"Too few words.  The minimum is"});
           JotForm.alterTexts({"couponApply":"Aplicar","couponBlank":"Favor inserir um cupom.","couponChange":"","couponEnter":"Inserir cupom","couponExpired":"Cupom expirado. Por favor, tente outro cupom.","couponInvalid":"Coupon is invalid.","couponValid":"Cupom válido.","shippingShipping":"Envio","taxTax":"Imposto","totalSubtotal":"Subtotal","totalTotal":"Total"}, true);
           FormTranslation.init({"detectUserLanguage":"1","firstPageOnly":"0","options":"Portuguese (Brazil)","originalLanguage":"pt-BR","primaryLanguage":"pt-BR","saveUserLanguage":"1","showStatus":"flag-with-nation","theme":"light-theme","version":"2"});
       /*INIT-END*/
       });
     
-       JotForm.prepareCalculationsOnTheFly([null,null,null,null,null,null,{"description":"","name":"email","qid":"6","subLabel":"exemplo@exemplo.com","text":"E-mail","type":"control_email"},{"description":"","name":"telefone","qid":"7","text":"Telefone","type":"control_phone"},null,null,null,{"description":"","name":"formaDe","qid":"11","text":"Forma de Pagamento","type":"control_radio"},{"description":"","name":"cnpj","qid":"12","subLabel":"","text":"CNPJ","type":"control_textbox"},{"description":"","name":"nomeDa","qid":"13","subLabel":"Digite o nome da sua empresa ou negocio","text":"Nome da Empresa","type":"control_textbox"},{"description":"","name":"jaE","qid":"14","text":"Ja e cliente ?","type":"control_radio"},{"description":"","name":"meusProdutos","qid":"15","text":"Meus Produtos","type":"control_payment"},{"name":"enviar","qid":"16","text":"Enviar","type":"control_button"}]);
+       JotForm.prepareCalculationsOnTheFly([null,null,null,null,null,null,{"description":"","name":"email","qid":"6","subLabel":"exemplo@exemplo.com","text":"E-mail","type":"control_email"},{"description":"","name":"telefone","qid":"7","text":"Telefone","type":"control_phone"},null,null,null,null,{"description":"","name":"cnpj","qid":"12","subLabel":"","text":"CNPJ","type":"control_textbox"},{"description":"","name":"nomeDa","qid":"13","subLabel":"Digite o nome da sua empresa ou negocio","text":"Nome da Empresa","type":"control_textbox"},{"description":"","name":"jaE","qid":"14","text":"Ja e cliente ?","type":"control_radio"},{"description":"","name":"meusProdutos","qid":"15","text":"Meus Produtos","type":"control_payment"},{"name":"enviar","qid":"16","text":"Enviar","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"formaDe","qid":"30","text":"Forma de Pagamento","type":"control_widget"}]);
        setTimeout(function() {
-    JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,{"description":"","name":"email","qid":"6","subLabel":"exemplo@exemplo.com","text":"E-mail","type":"control_email"},{"description":"","name":"telefone","qid":"7","text":"Telefone","type":"control_phone"},null,null,null,{"description":"","name":"formaDe","qid":"11","text":"Forma de Pagamento","type":"control_radio"},{"description":"","name":"cnpj","qid":"12","subLabel":"","text":"CNPJ","type":"control_textbox"},{"description":"","name":"nomeDa","qid":"13","subLabel":"Digite o nome da sua empresa ou negocio","text":"Nome da Empresa","type":"control_textbox"},{"description":"","name":"jaE","qid":"14","text":"Ja e cliente ?","type":"control_radio"},{"description":"","name":"meusProdutos","qid":"15","text":"Meus Produtos","type":"control_payment"},{"name":"enviar","qid":"16","text":"Enviar","type":"control_button"}]);}, 20); 
+    JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,{"description":"","name":"email","qid":"6","subLabel":"exemplo@exemplo.com","text":"E-mail","type":"control_email"},{"description":"","name":"telefone","qid":"7","text":"Telefone","type":"control_phone"},null,null,null,null,{"description":"","name":"cnpj","qid":"12","subLabel":"","text":"CNPJ","type":"control_textbox"},{"description":"","name":"nomeDa","qid":"13","subLabel":"Digite o nome da sua empresa ou negocio","text":"Nome da Empresa","type":"control_textbox"},{"description":"","name":"jaE","qid":"14","text":"Ja e cliente ?","type":"control_radio"},{"description":"","name":"meusProdutos","qid":"15","text":"Meus Produtos","type":"control_payment"},{"name":"enviar","qid":"16","text":"Enviar","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"formaDe","qid":"30","text":"Forma de Pagamento","type":"control_widget"}]);}, 20); 
     </script>
 </head>
 <body>
@@ -79,18 +95,18 @@
 
 		<!-- Navigation -->
     
-		<nav class="navbar navbar-light navbar-expand-lg sticky-top">
+		<nav class="navbar navbar-light navbar-expand-lg fixed">
 			<div class="container">
-				<a href="https://www.eaglesx.com/" class="navbar-brand w-75"><img class="brand-img" id="brand-img" src="/assets/img/Logo-branco_Prancheta-1.png" alt="LOGO"></a>
+				<a href="https://www.eaglesx.com/" class="navbar-brand w-70"><img class="brand-img" id="brand-img" src="/assets/img/svg_eagles_logo.svg" alt="LOGO"></a>
 
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div class="collapse navbar-collapse mr-auto" id="navbarResponsive">
+				<div class="collapse navbar-collapse mr-auto w-37 ml-5" id="navbarResponsive">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item mr-auto"><a href="https://www.eaglesx.com/" class="nav-link active">INICIO</a></li>
-						<li class="nav-item mr-auto"><a href="https://wa.me/5551995139584" class="nav-link">CONTATO</a></li>
+						<li class="nav-item mr-auto"><a href="https://www.eaglesx.com/" class="nav-link active">HOME</a></li>
+						<li class="nav-item mr-auto"><a href="https://wa.me/5551995139584" class="nav-link">FALE CONOSCO</a></li>
             
 
 					</ul>
@@ -175,7 +191,7 @@
 
 
     <div id="produtos">
-        <div class="col mt-2">
+        <div class="col mt-3">
             <h2 class="text-center">SELECIONE SEUS PRODUTOS</h2>
                 <p class="text-center">Abaixo faça a escolha de seus produtos e crie seu proprio plano ideal</p>
         </div>
@@ -756,30 +772,49 @@
                   </span>
                 </div>
               </li>
-              <li class="form-line jf-required" data-type="control_radio" id="id_11">
-                <label class="form-label form-label-top form-label-auto" id="label_11" for="input_11">
+              
+
+
+              <li class="form-line jf-required" data-type="control_widget" id="id_30">
+                <label class="form-label form-label-top form-label-auto" id="label_30" for="input_30">
                   Forma de Pagamento
                   <span class="form-required">
                     *
                   </span>
                 </label>
-                <div id="cid_11" class="form-input-wide jf-required" data-layout="full">
-                  <div class="form-single-column" role="group" aria-labelledby="label_11" data-component="radio">
-                    <span class="form-radio-item" style="clear:left">
-                      <span class="dragger-item">
-                      </span>
-                      <input type="radio" aria-describedby="label_11" class="form-radio validate[required]" id="input_11_0" name="q11_formaDe" value="Pagamento à vista (Desconto)" data-calcvalue="10%" required="" />
-                      <label id="label_input_11_0" for="input_11_0"> Pagamento à vista (Desconto) </label>
-                    </span>
-                    <span class="form-radio-item" style="clear:left">
-                      <span class="dragger-item">
-                      </span>
-                      <input type="radio" aria-describedby="label_11" class="form-radio validate[required]" id="input_11_1" name="q11_formaDe" value="Pagamento Parcelado" required="" />
-                      <label id="label_input_11_1" for="input_11_1"> Pagamento Parcelado </label>
-                    </span>
+                <div id="cid_30" class="form-input-wide jf-required" data-layout="full">
+                  <div data-widget-name="" style="width:100%;text-align:Left;overflow-x:auto" data-component="widget-field">
+                    <iframe data-client-id="53201a2d6866be393e000028" title="" frameBorder="0" scrolling="no" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame" id="customFieldFrame_30" src="" style="max-width:400px;border:none;width:100%;height:50px" data-width="400" data-height="50">
+                    </iframe>
+                    <div class="widget-inputs-wrapper">
+                      <input type="hidden" id="input_30" class="form-hidden form-widget widget-required " name="q30_formaDe" value="" />
+                      <input type="hidden" id="widget_settings_30" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22list%22%2C%22value%22%3A%22Pagamento%20%C3%A0%20vista%20(Desconto)%5CnEntrada%20%2B%201x%5CnEntrada%20%2B%202x%5CnEntrada%20%2B%203x%22%7D%5D" data-version="2" />
+                    </div>
+                    <script type="text/javascript">
+                    setTimeout(function()
+        {
+          var _cFieldFrame = document.getElementById("customFieldFrame_30");
+          if (_cFieldFrame)
+          {
+            _cFieldFrame.onload = function()
+            {
+              if (typeof widgetFrameLoaded !== 'undefined')
+              {
+                widgetFrameLoaded(30, {
+                  "formID": 212785700907661
+                })
+              }
+            };
+            _cFieldFrame.src = "//app-widgets.jotform.io/dynamicDropdowns/?qid=30&ref=" + encodeURIComponent(window.location.protocol + "//" + window.location.host) + '' + '' + '&injectCSS=' + encodeURIComponent(window.location.search.indexOf("ndt=1") > -1);
+            _cFieldFrame.addClassName("custom-field-frame-rendered");
+          }
+        }, 0);
+                    </script>
                   </div>
                 </div>
               </li>
+              
+              
               <li class="form-line" data-type="control_button" id="id_16">
                 <div id="cid_16" class="form-input-wide" data-layout="full">
                   <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
@@ -807,24 +842,22 @@
         
           </script>
           <script>
-          JotForm.poweredByText = "Powered by Jotform";
-  </script>
-  <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="212785700907661" />
-  <script type="text/javascript">
-  var all_spc = document.querySelectorAll("form[id='212785700907661'] .si" + "mple" + "_spc");
-for (var i = 0; i < all_spc.length; i++)
-{
-  all_spc[i].value = "212785700907661-212785700907661";
-}
-          </script>
+            JotForm.poweredByText = "Powered by Jotform";
+            </script>
+            <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="212785700907661" />
+            <script type="text/javascript">
+            var all_spc = document.querySelectorAll("form[id='212785700907661'] .si" + "mple" + "_spc");
+          for (var i = 0; i < all_spc.length; i++)
+          {
+            all_spc[i].value = "212785700907661-212785700907661";
+          }
+            </script>
 
          
           
         </form>
 
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Alameda%20da%20
-          Inova%C3%A7%C3%A3o,%20273%20-%20Campo%20Bom%20-%20RS&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"
-           marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style><a href="https://www.embedgooglemap.net">google embed maps</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div></div>
+      
 
         <div class="footerid" id="footerp">
 
