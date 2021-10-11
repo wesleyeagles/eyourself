@@ -1057,10 +1057,12 @@ div.form-header-group.header-large {
     width : 60%;
 }
 
-#id_30 {
+#id_34 {
 
   width: 35%;
 }
+
+
 
 .form-error-message {
     display : none;
@@ -1223,6 +1225,11 @@ form {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+}
+
+#id_34 {
+
+  width: 100%;
 }
 
 .img-pc {
