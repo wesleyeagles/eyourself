@@ -228,16 +228,7 @@ button:hover {
     border-radius: 7px;
 }
 
-#produtos button {
 
-    font-size: 20px!important;
-    padding: 5px;
-    height: 50px;
-    width: 200px;
-    background-color: #004690;
-    
-
-}
 
 #produtos input {
 
@@ -245,6 +236,260 @@ button:hover {
     
 
 
+}
+
+.btn-details {
+
+  background-color: rgb(0, 132, 255)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 50px;
+  top: 100px;
+  transition: 1s;
+  animation: btn-animation 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  font-weight: bold;
+  
+}
+
+@keyframes btn-animation {
+
+  100% 
+  {
+    top: 90px;
+  }
+  
+}
+
+.btn-details:hover {
+
+  background-color: rgba(0, 68, 255, 0.897)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 50px;
+  top: 100px;
+  
+  
+}
+
+.btn-details2 {
+
+  background-color: rgb(0, 132, 255)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 50px;
+  top: 130px;
+  transition: 1s;
+  animation: btn-animation2 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  font-weight: bold;
+  
+}
+
+@keyframes btn-animation2 {
+
+  100% 
+  {
+    top: 120px;
+  }
+  
+}
+
+.btn-details2:hover {
+
+  background-color: rgba(0, 68, 255, 0.897)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 50px;
+  top: 130px;
+  
+  
+}
+
+.btn-details3 {
+
+  background-color: rgb(0, 132, 255)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  transition: 1s;
+  animation: btn-animation3 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  font-weight: bold;
+  
+}
+
+@keyframes btn-animation3 {
+
+  100% 
+  {
+    top: 90px;
+  }
+  
+}
+
+.btn-details3:hover {
+
+  background-color: rgba(0, 68, 255, 0.897)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  
+  
+}
+
+.btn-details4 {
+
+  background-color: rgb(0, 132, 255)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 100px;
+  top: 130px;
+  transition: 1s;
+  animation: btn-animation4 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  font-weight: bold;
+  
+}
+
+@keyframes btn-animation4 {
+
+  100% 
+  {
+    top: 120px;
+  }
+  
+}
+
+.btn-details4:hover {
+
+  background-color: rgba(0, 68, 255, 0.897)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 100px;
+  top: 130px;
+  
+  
+}
+
+.btn-details5 {
+
+  background-color: rgb(0, 132, 255)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 100px;
+  top: 158px;
+  transition: 1s;
+  animation: btn-animation5 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  font-weight: bold;
+  
+}
+
+@keyframes btn-animation5 {
+
+  100% 
+  {
+    top: 148px;
+  }
+  
+}
+
+.btn-details5:hover {
+
+  background-color: rgba(0, 68, 255, 0.897)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 100px;
+  top: 158px;
+  
+  
+}
+
+.btn-details6 {
+
+  background-color: rgb(0, 132, 255)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 100px;
+  top: 130px;
+  transition: 1s;
+  animation: btn-animation6 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  font-weight: bold;
+  
+}
+
+@keyframes btn-animation6 {
+
+  100% 
+  {
+    top: 120px;
+  }
+  
+}
+
+.btn-details6:hover {
+
+  background-color: rgba(0, 68, 255, 0.897)!important;
+  width: 180px!important;
+  font-size: 16px!important;
+  position: relative;
+  left: 100px;
+  top: 130px;
+  
+  
+}
+
+.modal button {
+
+  background-color: red!important;
+}
+
+.modal-body {
+
+  font-size: 22px!important;
+  color: #075aa8;
+  font-family: GilroyLight;
+}
+
+.modal-title {
+
+  color: #075aa8;
+  font-size: 22px!important;
+
+}
+
+
+.preco {
+
+  position: relative;
+  top: 5px;
+}
+
+.preco2 {
+
+  position: relative;
+  top: 8px;
 }
 
 .w-70 {
