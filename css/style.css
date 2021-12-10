@@ -359,7 +359,7 @@ height: 800px!important;
   width: 300px;
   height: 420px;
   margin: 0.5%;
-  box-shadow: #075aa8 3px 3px 8px 1px;
+  box-shadow: #075aa8 0px 0px 8px 1px;
 }
 
 .form-product-details {
@@ -663,7 +663,7 @@ li {
   width: 320px;
   height: 420px;
   margin: 0.5%;
-  box-shadow: #075aa8 3px 3px 8px 1px;
+  box-shadow: #075aa8 0px 0px 8px 1px;
 }
 
 .form-product-name {
@@ -866,6 +866,7 @@ li {
     display: flex;
   justify-content: center;
   margin-left: 0;
+  margin-top: 100px;
   }
 
   .Title-H1-2 h1 {
@@ -973,7 +974,7 @@ li {
     width: 280px;
     height: 420px;
     margin: 10px 0px 10px 0px;
-    box-shadow: #075aa8 3px 3px 8px 1px;
+    box-shadow: #075aa8 0px 0px 8px 1px;
   }
 
   .form-product-name {
