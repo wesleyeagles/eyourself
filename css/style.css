@@ -749,6 +749,16 @@ li {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.formulario {
+
+  display: flex;
+  max-width: 280px;
+  margin: 0 auto;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  width: 100%;
+}
   
 
 
@@ -1074,7 +1084,7 @@ li {
 
 }
 
-@media screen and (width: 425px) {
+@media screen and (width: 428px) {
 
   .form-product-details {
 
@@ -1094,27 +1104,27 @@ li {
 
   #id_13 input {
 
-    width: 320px;
+    width: 100%;
   }
 
   #id_12 input {
 
-    width: 320px;
+    width: 100%;
   }
 
   #id_6 input {
 
-    width: 320px;
+    width: 50%;
   }
 
   #id_7 input {
 
-    width: 320px;
+    width: 50%;
   }
 
   #id_34 select {
 
-    width: 330px!important;
+    width: 50%;
   }
 
   .form-line {
