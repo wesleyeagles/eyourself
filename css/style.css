@@ -1,3 +1,8 @@
+:root {
+  color-scheme: light only;
+}
+
+
 @font-face {
   font-family: GilroyBold;
   src: url("https://static.wixstatic.com/ufonts/186fbd_f3a5d63e3733490d968b4de98aa7ea62/woff2/file.woff2") format("woff2"),
